@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <p><u><b><h1><font color="red"><center>FORMS</center></font></h1></b></u></p>
+    <p>---> An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+    <p>---> The HTML &lt form &gt element is used to create an HTML form for user input:</p>
+    <p> EX: &lt form &gt.form elements.&lt /form &gt</p>
+    <p>---> The &lt form &gt element is a container for different types of input elements,such as: text fields, checkboxes, radio buttons, file uploads submit buttons,etc.</p>
+    <p>In &lt Forms &gt we have different 'TAGS' thay are 
+        <p><ol type="1">
+            <li>&lt Input Tag &gt</li>
+            <li>&lt Text Area &gt</li>
+            <li>&lt Select &gt</li>
+            <li>&lt Option &gt</li>
+            <li>&lt Button &gt</li>
+           </ol></p>
+    </p>
+    <p><b><font color="blue"><h2>1. &lt Input Tag &gt</h2></font></b></p>
+    <p>---> Where as in &lt input tag &gt tag Element is themost used form Element. </p>
+    <p>---> In input element can be displayed in many ways depending on the "type" ATTRIBUE.</p>
+    <P>---> THERE ARE : </P>
+        <P><ol type="1">
+            <li><font color="green"><h2>&lt TEXT BOX &gt (&lt input type="text" &gt)</h2></font></li>
+            <p>---> Define a single-line text field that a user can enter text into:</p>
+            <p>---> EX : &lt input type="text" name="frist name" value="enter name" size="15" maxsize="20" &gt</p>
+            <p>---> Here Size means 'BOX SIZE' and mazsize means 'NUMBER OF LETTERS CAN ENTER'</p>
+            <li><font color="green"><h2>&lt RADIO BUTTONS &gt (&lt input type="radio" &gt)</h2></font></li>
+            <p>---> To display a Radio Buttons for the selection of the one of many choices.</p>
+            <p>EX : &lt input type="radio" name="gender" checked="checked" &gt MALE </p>
+            <P>---> &lt input type="radio" name="gender" &gt FEMALE</P>
+            <P>---> Here we have a attributr 'checked' it is used to select by default.</P>
+            <li><font color="green"><h2>&lt CHECK BOX &gt (&lt input type="check box" &gt)</h2></font></li>
+            <p>---> The checkbox is shown as a square box that is ticked (checked) when activated.</p>
+            <p>---> Checkboxes are used to let a user select one or more options of a limited number of choices.</p>
+            <p>EX : &lt input type="check box" name="hobbies" &gt SINGING</p>
+            <P>---> &lt input type="check box" name="hobbies" &gt DANCING</P>
+            <li><font color="green"><h2>&lt FILR UPLOAD &gt (&lt input type="file" &gt)</h2></font></li>
+            <p>---> The &lt input type="file" &gt defines a file-select field and a "Browse" button for file uploads.</p>
+            <p>---> To define a file-select field that allows multiple files to be selected, add the multiple attribute.</p>
+            <p>EX : &lt input type="file" name="file" accept="pdf"</p>
+            <p> Here Accept is used to upload what kind of file .</p>
+            <li><font color="green"><h2>&lt BOTTONS &gt (&lt input type="submit" &gt)</h2></font></li>
+            <p>---> The &lt button &gt tag defines a clickable button.</p>
+            <p>---> Inside a &lt button &gt element you can put text (and tags like &lti &gt, &lt b &gt, &lt strong &gt, &lt br &gt, &lt img &gt, etc.). That is not possible with a button created with the &lt input &gt element!</p>
+            <p>---> NOTE :Always specify the type attribute for a &lt buttot &gt element, to tell browsers what type of button it is.</p>
+            <p>---> NOTE : You can easily style buttons with CSS! Look at the examples below or visit our CSS Buttons tutorial.</p>
+            <p>---> EX : &lt input type="submit" name="button value="submit" &gt</p>
+            <p>--------> &lt input type="reset" name="button value="reset" &gt</p>
+            <p>--------> &lt input type="button" name="button value="click" &gt</p>
+            <p>--------> &lt input type="image" name="button src="image patht" &gt</p>
+    <p><li><b><font color="blue"><h2>&lt TEXT AREA &gt (&lt text area &gt  &lt/ text area &gt)</h2></font></b></li></p>
+    <p>---> The lt textarea &gt tag defines a multi-line text input control.</p>
+    <p>---> The &lt textarea &gt element is often used in a form, to collect user inputs like comments or reviews.</p>
+    <p>---> A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).</p>
+    <p>---> The size of a text area is specified by the &lt cols &gt and &lt rows &gt attributes (or with CSS).</p>
+    <p>EX : &lt textarea roes="5" cols="20' &gt MATETR &lt/text area &gt</p>
+    <p><li><b><font color="blue"><h2>&lt SELECT BUTTON &gt (&lt select &gt  &lt/ select &gt)</h2></font></b></li></p>
+    <p>---> The &lt select &gt element is used to create a drop-down list.</p>
+    <p>---> The &lt select &gt element is most often used in a form, to collect user input.</p>
+    <p>---> The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the drop-down list will be submitted).</p>
+    <p>---> The id attribute is needed to associate the drop-down list with a label.</p>
+    <p>EX : &lt select size="3" &gt
+    <p>---> &lt option &gt C &lt /option &gt</p>
+    <p>---> &lt option &gt C++ &lt /option &gt</p>
+    <p>---> &lt option &gt JAVA &lt /option &gt</p>
+    <p>---> &lt /select &gt</p>
+    </p>
+           </ol></P>
+
+
+</body>
+</html>
